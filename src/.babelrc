@@ -4,17 +4,14 @@
     [
       "@babel/preset-env",
       {
-        "loose": true
+        "loose": true,
+        "targets": {
+          "node": "current"
+        }
       }
     ]
   ],
   "plugins": [
-    [
-      "@babel/plugin-transform-runtime",
-      {
-        "corejs": 2
-      }
-    ],
     "add-module-exports",
     "@babel/plugin-syntax-dynamic-import",
     "@babel/plugin-syntax-import-meta",

@@ -25,7 +25,7 @@
     "no-octal-escape": "error",
     "no-proto": "error",
     "no-return-assign": "error",
-    "no-script-url": "error",
+    "no-script-url": "warn",
     "no-sequences": "error",
     "no-shadow": "error",
     "no-shadow-restricted-names": "error",

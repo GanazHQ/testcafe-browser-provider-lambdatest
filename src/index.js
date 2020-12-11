@@ -19,6 +19,7 @@ export default {
 
     async _startBrowser (id, url, capabilities) {
         showTrace('StartBrowser Initiated for ', id);
+        console.log('Capabilities', capabilities);
         const browser = await WebDriver.newSession({
             path: '/wd/hub',
             hostname: 'hub.lambdatest.com',
@@ -33,6 +34,7 @@ export default {
         openedBrowsers[id] = browser;
         showTrace(capabilities);
         try {
+            //if (capabilities.acceptSslCerts) await browser.navigateTo('javascript:document.getElementById(\'overridelink\').click()');
             await browser.navigateTo(url);
         }
         catch (err) {

@@ -97,6 +97,7 @@ async function _connect () {
                 if (PROCESS_ENVIRONMENT.LT_PROXY_PASS) tunnelArguments.proxyPass = PROCESS_ENVIRONMENT.LT_PROXY_PASS;
                 tunnelArguments.tunnelName = PROCESS_ENVIRONMENT.LT_TUNNEL_NAME || `TestCafe-${new Date().getTime()}`;
                 if (PROCESS_ENVIRONMENT.LT_DIR) tunnelArguments.dir = PROCESS_ENVIRONMENT.LT_DIR;
+                if (PROCESS_ENVIRONMENT.LT_MITM) tunnelArguments.mitm = true;
                 await connectorInstance.start(tunnelArguments);
             }
             await _waitForTunnelRunning();

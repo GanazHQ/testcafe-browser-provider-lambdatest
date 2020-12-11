@@ -28,12 +28,12 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime-corejs2": "^7.6.3",
-    "@lambdatest/node-tunnel": "*",
+    "@lambdatest/node-tunnel": "3.0.0",
     "desired-capabilities": "^0.1.0",
     "pify": "^4.0.1",
     "pinkie": "^2.0.4",
     "request": "^2.88.0",
-    "webdriver": "^6.2.0"
+    "webdriver": "^6.10.4"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",

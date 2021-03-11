@@ -812,10 +812,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@lambdatest/node-tunnel@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@lambdatest/node-tunnel/-/node-tunnel-3.0.0.tgz#d7f8dddd7ba0202db19e87077c31a79f07e47e9c"
-  integrity sha512-X71Mee8RFKQ0GA1gvpX1rUqYkBvrooFLQaVCoZaDIlF9c5vH3N8WXd6hTk9P/54NKQ37fPowknuYrRJySnMB7g==
+"@lambdatest/node-tunnel@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@lambdatest/node-tunnel/-/node-tunnel-2.0.2.tgz#d6846effa3483626979d1a58723e0ec53067962b"
+  integrity sha512-YhIYoISg62B0V+1HA9tS7a1/WJNnIhyQURs9x3HN15SMi8OTNw18mZ5ecoy1ziIxjtfvsrX2BoLONNoD4+UiwA==
   dependencies:
     get-port "^1.0.0"
     https-proxy-agent "^5.0.0"
